@@ -109,7 +109,7 @@ This is used to show the difference you made into file.
 
 git HEAD Branch_name : 
 
-                            	HEAD is pointing towards the file you want to point.It works as a pointer.
+				HEAD is pointing towards the file you want to point.It works as a pointer.
 
 
 To create a *.gz compressed file:
