@@ -5,8 +5,8 @@ Change port in linux command
 
 Configure the author name and email address to be used with your commits.
 		
-     		  git config --global user.name "Sam Smith"
-		  git config --global user.email sam@example.com
+  		git config --global user.name "Sam Smith"
+		git config --global user.email sam@example.com
 
 Create new repository
 
@@ -92,4 +92,12 @@ This is used to show the difference you made into file.
 git HEAD Branch_name : 
 
                             HEAD is pointing towards the file you want to point.
-	                    It works as a pointer 
+			    It works as a pointer.
+			    
+To create a *.gz compressed file:
+ 
+ 				gzip test.txt
+				
+To uncompress a *.gz file:
+ 			
+				gzip -d test.txt.gz
