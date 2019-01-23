@@ -28,25 +28,34 @@
 ### cat : This command is use to show the text written in your file
 			cat file_name
 
-### poweroff : This command is used to directly power off your device from terminal
+### poweroff : 
+			This command is used to directly power off your device from terminal
 
-### pwd : This is used to show which directory you are currently in
+### pwd : 
+			This is used to show which directory you are currently in
 
-### exit : exit from root directory as well as terminal.
+### exit : 
+			exit from root directory as well as terminal.
 
-### df : This is used to show the disk space storage.
+### df : 
+			This is used to show the disk space storage.
 			df -h : Show in terms of bytes
 
-### free : This is used to show the free available memory space.
+### free : 
+			This is used to show the free available memory space.
 			free -m : show free memory in terms of bytes rather than blocks
 
-### top : This command will give all information about OS (CPU,RAM)
+### top :
+			This command will give all information about OS (CPU,RAM)
 
-### uname -a : This gives all info about system name,kernal name,version
+### uname -a : 
+			This gives all info about system name,kernal name,version
 
-### lsb_release -a : This will show the version of ubuntu used.
+### lsb_release -a : 
+			This will show the version of ubuntu used.
 
-### ls -l file_name : To see which permission is given to selected file
+### ls -l file_name : 
+			To see which permission is given to selected file
 
 ### chmod 762 file_name : change permission
 			1st : Owner 2nd : GroupUser 3rd : Public
@@ -66,4 +75,14 @@
 ### Import database
 			mysql -u root -p databasename < backup.sql
 
-### ctrl+shift+D : Return from MYSQL terminal
+### ctrl+shift+D : 
+			Return from MYSQL terminal
+
+### To create a *.gz compressed file:
+
+				gzip test.txt
+
+
+### To uncompress a *.gz file:
+
+				gzip -d test.txt.gz
