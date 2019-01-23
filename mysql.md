@@ -1,4 +1,4 @@
-### If you don't have MySQL installed on your droplet, you can quickly download it.
+#### If you don't have MySQL installed on your droplet, you can quickly download it.
 
                                    sudo apt-get install mysql-server
 
