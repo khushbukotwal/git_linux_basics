@@ -1,31 +1,18 @@
-## If you don't have MySQL installed on your droplet, you can quickly download it.
+#### If you don't have MySQL installed on your droplet, you can quickly download it.
 
-### sudo apt-get install mysql-server
+##### sudo apt-get install mysql-server
 
-## Once you have MySQL installed on your droplet, you can access the MySQL shell by typing the following command into terminal:
+#### Once you have MySQL installed on your droplet, you can access the MySQL shell by typing the following command into terminal:
 
-### mysql -u root -p
+##### mysql -u root -p
 
-## You can quickly check what databases are available by typing:
+#### You can quickly check what databases are available by typing:
 
-# SHOW DATABASES;
+##### mysql> SHOW DATABASES;
 
-Your screen should look something like this:
+#### Creating a database is very easy:
 
- mysql> SHOW DATABASES;
-+--------------------+
-| Database           |
-+--------------------+
-| information_schema |
-| mysql              |
-| performance_schema |
-| test               |
-+--------------------+
-4 rows in set (0.01 sec)
-
-Creating a database is very easy:
-
- CREATE DATABASE database name;
+ ##### CREATE DATABASE database name;
 
 In this case, for example, we will call our database "events."
 
